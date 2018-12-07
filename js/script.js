@@ -11,11 +11,3 @@ $('.owl-carousel').owlCarousel({
 });
 
 });
-
-
-
-function addField () {
-  var telnum = parseInt($("#add_field_area").find("div.add:last").attr("id").slice(3)) 1;
- 
-  $("div#add_field_area").append("<div id="add" telnum "" class="add"><label> Поле №" telnum "</label><input type="text" width="120" name="val[]" id="val"  value=""/></div>");
-}
